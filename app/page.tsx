@@ -574,39 +574,51 @@ export default function NandiTravelsWebsite() {
       </footer>
 
       {/* Live Chat Support */}
-      <div className="fixed bottom-24 right-6 z-50">
-        <div className="bg-white shadow-2xl rounded-3xl w-80 overflow-hidden border border-gray-200">
-          <div className="bg-black text-white p-4">
-            <h4 className="font-bold text-lg">Live Chat Support</h4>
-            <p className="text-sm text-gray-300">Nandi Travels Team • Online</p>
-          </div>
+     {/* Floating Contact Buttons */}
+<div className="fixed bottom-10 right-6 z-50 flex flex-col gap-3">
 
-          <div className="p-4 bg-gray-50">
-            <div className="bg-white p-3 rounded-2xl shadow mb-3 text-sm">
-              Hello 👋
-              <br />
-              Need a taxi booking?
-            </div>
+  {/* WhatsApp Chat */}
+  <a
+    href="https://wa.me/917268838241?text=Hello%20Nandi%20Travels,%20I%20want%20to%20book%20a%20cab.%20Please%20share%20price%20and%20availability."
+    target="_blank"
+    className="flex items-center gap-3 bg-white shadow-2xl border border-gray-200 rounded-full px-4 py-3 hover:scale-105 transition"
+  >
+    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
 
-            <a
-             href="https://wa.me/917268838241?text=Hello%20Nandi%20Travels,%20I%20want%20to%20book%20a%20cab.%20Please%20share%20price%20and%20availability."
-              target="_blank"
-              className="block w-full bg-green-500 text-white text-center py-3 rounded-2xl font-bold"
-            >
-              Start Live Chat
-            </a>
-          </div>
-        </div>
-      </div>
+    <div className="leading-tight">
+      <p className="text-sm font-bold text-black">
+        WhatsApp Chat
+      </p>
 
-      {/* Floating WhatsApp Button */}
-      <a
-      href="https://wa.me/917268838241?text=Hello%20Nandi%20Travels,%20I%20want%20to%20book%20a%20cab.%20Please%20share%20price%20and%20availability."
-        target="_blank"
-        className="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-4 rounded-full shadow-2xl font-bold z-50 hover:scale-105 transition"
-      >
-        WhatsApp
-      </a>
+      <p className="text-xs text-gray-500">
+        Online Now
+      </p>
+    </div>
+  </a>
+
+  {/* Call Now */}
+  <a
+    href="tel:7268838241"
+    className="flex items-center gap-3 bg-yellow-400 shadow-2xl rounded-full px-4 py-3 hover:scale-105 transition"
+  >
+    <div className="text-xl">
+      📞
+    </div>
+
+    <div className="leading-tight">
+      <p className="text-sm font-bold text-black">
+        Call Now
+      </p>
+
+      <p className="text-xs text-black/70">
+        24/7 Support
+      </p>
+    </div>
+  </a>
+
+</div>
+    
+    
     </div>
   );
 }
