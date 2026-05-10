@@ -516,6 +516,65 @@ export default function NandiTravelsWebsite() {
           </div>
         </div>
       </section>
+       
+                <section className="py-20 px-6 bg-gray-50">
+  <div className="max-w-5xl mx-auto">
+
+    <h2 className="text-4xl font-bold text-center mb-12">
+      Frequently Asked Questions – Nandi Travels Varanasi
+    </h2>
+
+    <div className="space-y-6">
+
+      <div className="bg-white p-6 rounded-2xl shadow">
+        <h3 className="font-bold text-xl mb-2">
+          Which is the best taxi service in Varanasi?
+        </h3>
+        <p className="text-gray-700">
+          Nandi Travels provides one of the best 24/7 taxi services in Varanasi for both local and outstation travel with reliable drivers and clean cars.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow">
+        <h3 className="font-bold text-xl mb-2">
+          Is airport pickup service available in Varanasi?
+        </h3>
+        <p className="text-gray-700">
+          Yes, we provide 24/7 airport pickup and drop service from Lal Bahadur Shastri Airport, Varanasi.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow">
+        <h3 className="font-bold text-xl mb-2">
+          What is the taxi fare from Varanasi to Ayodhya?
+        </h3>
+        <p className="text-gray-700">
+          Varanasi to Ayodhya taxi starts from ₹5500. The final fare depends on the vehicle type and travel requirements.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow">
+        <h3 className="font-bold text-xl mb-2">
+          How can I book a taxi in Varanasi?
+        </h3>
+        <p className="text-gray-700">
+          You can book a taxi directly via call or WhatsApp. We provide instant booking confirmation and quick support.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow">
+        <h3 className="font-bold text-xl mb-2">
+          Do you provide outstation taxi service?
+        </h3>
+        <p className="text-gray-700">
+          Yes, we offer outstation taxi services from Varanasi to Lucknow, Prayagraj, Ayodhya, Bodhgaya and other cities.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>         
+
 <div className="w-full h-[400px] rounded-3xl overflow-hidden shadow-xl">
   <iframe
     src="https://www.google.com/maps?q=Varanasi+Lanka+Nandi+Travels&output=embed"
