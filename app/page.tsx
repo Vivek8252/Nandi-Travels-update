@@ -71,13 +71,13 @@ export default function NandiTravelsWebsite() {
         Call Now
       </a>
 
-      <a
+      {/* <a
        href="https://wa.me/917268838241?text=Hello%20Nandi%20Travels,%20I%20want%20to%20book%20a%20cab.%20Please%20share%20price%20and%20availability."
         target="_blank"
         className="bg-green-500 text-white px-4 py-2 rounded-xl font-semibold hover:scale-105 transition"
       >
         WhatsApp
-      </a>
+      </a> */}
     </div>
   </div>
 </header>
