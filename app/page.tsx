@@ -516,7 +516,16 @@ export default function NandiTravelsWebsite() {
           </div>
         </div>
       </section>
-
+<div className="w-full h-[400px] rounded-3xl overflow-hidden shadow-xl">
+  <iframe
+    src="https://www.google.com/maps?q=Varanasi+Lanka+Nandi+Travels&output=embed"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    loading="lazy"
+    allowFullScreen
+  ></iframe>
+</div>
       {/* Contact */}
       <section id="contact" className="bg-black text-white py-20 px-6">
         <div className="max-w-5xl mx-auto text-center">
